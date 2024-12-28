@@ -1,0 +1,266 @@
+/* Montserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Source Sans 3 Font*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Poppins 3 Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Source Sans 3", sans-serif;
+    --third-font: "Poppins", sans-serif;
+    --local-bg-primary: #F7F7F7;
+}
+
+/* Componts */
+body,
+html {
+    overflow-x: hidden !important;
+}
+
+p {
+    margin-top: initial;
+    margin-bottom: initial;
+}
+
+li {
+    list-style: none;
+}
+
+.happen a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.color-paragraph {
+    color: #555;
+}
+
+.local-bg-primary {
+    background-color: #F7F7F7;
+} 
+/*============ HEADER ============*/
+
+header {
+    font-family: var(--primary-font);
+    position: absolute;
+    width: 100%;
+    top: 70px ;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+header.active {
+
+}
+
+.color-primary {
+    color: #ff004d;
+}
+
+.nav-link {
+    font-size: 15px;
+    color: #ddd !important;
+}
+
+.nav-link.active {
+    color: #ff004d !important;
+}
+
+.nav-link:hover {
+    color: #ff004d !important;
+}
+
+.bg-primary {
+    background-color: #ff004d;
+}
+
+.info-contact,
+.login-register {
+    font-size: 13px;
+}
+
+header .navbar-toggler {
+    box-shadow: none !important;
+    border: none;
+}
+
+header .navbar-toggler svg {
+    color: white !important;
+}
+
+.navbar-toggler.active #toggle_on {
+    display: none;
+}
+
+.navbar-toggler #toggle_off {
+    display: none;
+}
+
+.navbar-toggler.active #toggle_off {
+    display: block;
+    font-size: 4;
+}
+
+
+
+
+
+
+@media(max-width: 992px){
+    header .navbar-brand img.logo-lg {
+        width: 100px !important;
+    }
+}
+
+@media(max-width: 767px) {
+    .topbar {
+        position: relative !important;
+        background-color: #cccccc !important;
+        color: #555 !important;
+    }
+    header {
+        background-color: #ff004d;
+        position: initial !important;
+    }
+    header ul {
+        background-color: white;
+    }
+    header ul .nav-link {
+        color: #555 !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .text-md-light {
+        color: #f8f9fa; 
+    }
+    header ul li.border-bottom {
+        border-bottom: none !important;
+    }
+}
+
+/*============ HOME ============*/
+.home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url("../images/slider1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--primary-font);
+}
+
+.home h1 {
+    font-family: var(--secondary-font);
+}
+
+.home a:hover{
+    background-color: #ff004d;
+    border-color: transparent !important;
+}
+
+@media (min-width: 992px) {
+    .home h1 {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 767px) {
+    .home  {
+        height: 80vh !important;
+    }
+
+
+}
+
+/*============ ABOUT ============*/
+.about h1 {
+    font-family: var(--third-font);
+    color: #555;
+}
+
+.about h2 {
+    color: #555;
+}
+
+.about h2,
+.about p {
+    font-family: var(--primary-font);
+}
+
+.about .row div:first-of-type p {
+    color: #888;
+}
+
+.about .event-info {
+    border: 10px solid var(--local-bg-primary);
+    /* border: 10px solid green; */
+}
+
+.about .event-info a {
+    padding: 10px 20px;
+}
+
+
+.about a:hover{
+    background-color: #ff004d;
+    color: white !important;
+    border-color: transparent !important;
+}
+
+
+/*============ SPEAKER ============*/
+.speaker {
+    /* background-color: ; */
+}
+
+.speaker h2 {
+    font-family: var(--third-font);
+}
+
+.speaker .card:hover{
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+}
+
+.speaker .social-links a {
+    transition: 0.3s;
+}
+
+.speaker .social-links a:hover {
+    background-color: #ff004d;
+}
+
+.speaker .social-links a:hover svg {
+    color: white !important;
+}
+
+/*============ EVENTS ============*/
+.events a:hover{
+    background-color: #ff004d;
+    color: white !important;
+    border-color: transparent !important;
+}
+
+.events .info-text,
+.events .event-content {
+    transition: 0.2s;
+}
+
+.events .event-content:hover {
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+}
+
+.events .info-text:hover {
+    color: #ff004d;
+}
+
+/*============ UPDATE ============*/
+.update .text-content {
+    width: 500px;
+    max-width: 100%;
+}
+
+.update h2 {
+    font-family: var(--third-font);
+}

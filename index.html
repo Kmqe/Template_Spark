@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--============ Render All Elements Normally ============-->
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <!--============ Font Awesome Library ============-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--============ BootStrap ============-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--============ Main Template CSS File ============-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <!--============ HEADER ============-->
+    <div class="topbar bg-black bg-opacity-25 position-absolute w-100 top-0">
+        <div class="container px-lg-5 py-2 py-md-3 d-flex justify-content-center justify-content-md-between text-md-light fs-6">
+            <div class="info-contact d-none d-md-flex gap-4 align-items-center">
+                <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-phone"></i>  +019 (88) 25184203
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-envelope-open"></i> company@domain.com
+                </div>
+            </div>
+            <div class="login-register d-flex gap-4 align-items-center">
+                <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-user"></i> Login
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-user-plus"></i> Register
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="d-flex align-items-center">
+        <div class="container px-lg-5 "> <!-- mt-m-3 -->
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-none d-md-block" href="#"><img class="logo-lg" src="assets/images/logo.webp" alt="Logo"></a>
+                    <a class="navbar-brand d-md-none" href="#"><img src="assets/images/logo-02.webp" alt="Logo"></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars fs-2" id="toggle_on"></i>
+                        <i class="fa-solid fa-xmark fs-2" id="toggle_off"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-md-3 ">
+                            <li class="nav-item border-bottom py-2">
+                                <a class="nav-link ps-4 active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item border-bottom py-2">
+                                <a class="nav-link ps-4" href="#">About</a>
+                            </li>
+                            <li class="nav-item border-bottom py-2">
+                                <a class="nav-link ps-4" href="#">Happen</a>
+                            </li>
+                            <li class="nav-item border-bottom py-2">
+                                <a class="nav-link ps-4" href="#">Speakers</a>
+                            </li>
+                            <li class="nav-item border-bottom py-2">
+                                <a class="nav-link ps-4" href="#">News</a>
+                            </li>
+                            <li class="nav-item border-bottom py-2">
+                                <a class="nav-link ps-4" href="#">Schedule</a>
+                            </li>
+                            <li class="nav-item border-bottom py-2">
+                                <a class="nav-link ps-4" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--============ MAIN ============-->
+    <main class="main ">
+
+        <!--============ HOME ============-->
+        <section class="home vh-100 d-flex align-items-center" id="home">
+            <div class="container px-lg-5">
+                <h5 class="text-light fw-normal text-uppercase">All Over The worlds</h5>
+                <h1 class="text-light fw-bold text-uppercase h1">Biggest Designers Meet Up</h1>
+                <div class="d-flex mt-3 gap-4 text-light flex-column flex-sm-row flex-column">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-calendar"></i>
+                        <span>Sep 13, 2021</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>1080 Layman Court, New York</span>
+                    </div>
+                </div>
+                <a href="#" class="btn mt-4 py-3 px-4 text-light text-uppercase border border-1" >Buy Tickets</a>
+            </div>
+        </section>
+        
+        <!--============ ABOUT ============-->
+        <section class="about py-5" id="about">
+            <div class="container px-lg-5 py-5">
+                <div class="row g-2">
+                    <div class="col-lg-6 col-md-6">
+                        <div>
+                            <h1 class="text-uppercase fw-normal fs-2">About Event</h1>
+                            <p class="px-3 px-md-5 border-start border-secondary border-2 mt-4 mb-5">
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a morless normal distribution of letters, as opposed
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="text-uppercase fw-normal fs-2">Detail Event</h1>
+                            <div class="px-3 px-md-5 mt-4 border-start border-secondary border-2">
+                                <h2 class="fs-5 fw-normal">1st Stape to gather</h2>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+            
+                                <h2 class="fs-5 fw-normal mt-4">2nd Stape to Create won way</h2>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mt-5 mt-md-0">
+                        <div class="event-info py-3 py-md-5">
+                            <ul class="d-flex flex-column gap-3 ps-3 ps-md-5">
+                                <li class="d-flex align-items-center gap-3 fs-5 color-paragraph ">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <p class="fw-normal">Sep 13, 2021</p>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 fs-5 color-paragraph mt-2">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p class="fw-normal">1080 Layman Court, New York</p>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 fs-5 color-paragraph mt-2">
+                                    <i class="fa-solid fa-palette"></i>
+                                    <p class="fw-normal">50,000+ Designers</p>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 fs-5 color-paragraph mt-2">
+                                    <i class="fa-solid fa-map-location-dot"></i>
+                                    <p class="fw-normal">Almost 16+ Countries</p>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 fs-5 color-paragraph mt-2">
+                                    <i class="fa-solid fa-users"></i>
+                                    <p class="fw-normal">20,000 Seats For Designers</p>
+                                </li>
+                                <li class="d-flex align-items-center gap-3 fs-5 color-paragraph mt-2">
+                                    <i class="fa-solid fa-microphone"></i>
+                                    <p class="fw-normal">80+ Speaker</p>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn ms-5 my-3 text-black text-uppercase border border-1 border-black">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--============ SPEAKER ============-->
+        <section class="speaker py-5 " id="speaker">
+            <div class="container">
+                <h2 class="text-uppercase text-black-50">honorable speaker</h2>
+                <div class="row row-gap-5 mt-4">
+
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card border-0 px-1">
+                            <div class="card-body d-flex flex-column align-items-center py-4 local-bg-primary ">
+                                <img class="rounded-circle" src="assets/images/speaker.webp" alt="image">
+                                <h5 class="card-title text-uppercase mt-4 mb-2">parricia morales</h5>
+                                <p class="card-subtitle mb-2 text-body-secondary">Desiner</p>
+
+                                <div class="social-links mt-3 d-flex gap-3">
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-facebook-f fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-behance fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-solid fa-g fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-pinterest-p fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card border-0 px-1">
+                            <div class="card-body d-flex flex-column align-items-center py-4 local-bg-primary ">
+                                <img class="rounded-circle" src="assets/images/speaker-2.webp" alt="image">
+                                <h5 class="card-title text-uppercase mt-4 mb-2">parricia morales</h5>
+                                <p class="card-subtitle mb-2 text-body-secondary">Desiner</p>
+
+                                <div class="social-links mt-3 d-flex gap-3">
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-facebook-f fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-behance fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-solid fa-g fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-pinterest-p fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card border-0 px-1">
+                            <div class="card-body d-flex flex-column align-items-center py-4 local-bg-primary ">
+                                <img class="rounded-circle" src="assets/images/speaker-3.webp" alt="image">
+                                <h5 class="card-title text-uppercase mt-4 mb-2">parricia morales</h5>
+                                <p class="card-subtitle mb-2 text-body-secondary">Desiner</p>
+
+                                <div class="social-links mt-3 d-flex gap-3">
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-facebook-f fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-behance fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-solid fa-g fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-pinterest-p fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card border-0 px-1">
+                            <div class="card-body d-flex flex-column align-items-center py-4 local-bg-primary ">
+                                <img class="rounded-circle" src="assets/images/speaker.webp" alt="image">
+                                <h5 class="card-title text-uppercase mt-4 mb-2">parricia morales</h5>
+                                <p class="card-subtitle mb-2 text-body-secondary">Desiner</p>
+
+                                <div class="social-links mt-3 d-flex gap-3">
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-facebook-f fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-behance fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-solid fa-g fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                    <a class="p-4 border border-1 position-relative" href="#">
+                                        <i class="fa-brands fa-pinterest-p fa-lg text-secondary position-absolute top-50 start-50 translate-middle"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!--============ EVENTS ============-->
+        <section class="events py-5 local-bg-primary" id="events">
+            <div class="container py-5">
+                <h2 class="text-uppercase text-black-50 mb-4">Up Comming Events</h2>
+
+                <div class="event-content d-flex flex-column flex-lg-row align-items-center justify-content-between px-5 py-4 bg-white">
+                    <img src="assets/images/sue-01.webp" alt="image">
+                    <div class="date">
+                        <p class="text-center mt-3 mt-lg-0">26 Mar <br> 2021 <br> 09:10pm</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column flex-lg-row gap-0 gap-lg-4 mt-3 mt-lg-0">
+                        <i class="fa-solid fa-globe fs-1"></i>
+                        <p class="info-text mt-3 mt-lg-0">Update Design & Ux <br class="d-none d-lg-block"> Support</p>
+                    </div>
+                    <p class="fs-6 mt-3 mt-lg-0">Banue: Hall No 2</p>
+                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black">BUY A TICKETS</a>
+                </div>
+
+                <div class="mt-5 event-content d-flex flex-column flex-lg-row align-items-center justify-content-between px-5 py-4 bg-white">
+                    <img src="assets/images/sue-02.webp" alt="image">
+                    <div class="date">
+                        <p class="text-center mt-3 mt-lg-0">26 Mar <br> 2021 <br> 09:10pm</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column flex-lg-row gap-0 gap-lg-4 mt-3 mt-lg-0">
+                        <i class="fa-solid fa-globe fs-1"></i>
+                        <p class="info-text mt-3 mt-lg-0">Update Design & Ux <br class="d-none d-lg-block"> Support</p>
+                    </div>
+                    <p class="fs-6 mt-3 mt-lg-0">Banue: Hall No 2</p>
+                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black">BUY A TICKETS</a>
+                </div>
+
+                <div class="mt-5 event-content d-flex flex-column flex-lg-row align-items-center justify-content-between px-5 py-4 bg-white">
+                    <img src="assets/images/sue-03.webp" alt="image">
+                    <div class="date">
+                        <p class="text-center mt-3 mt-lg-0">26 Mar <br> 2021 <br> 09:10pm</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column flex-lg-row gap-0 gap-lg-4 mt-3 mt-lg-0">
+                        <i class="fa-solid fa-globe fs-1"></i>
+                        <p class="info-text mt-3 mt-lg-0">Update Design & Ux <br class="d-none d-lg-block"> Support</p>
+                    </div>
+                    <p class="fs-6 mt-3 mt-lg-0">Banue: Hall No 2</p>
+                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black">BUY A TICKETS</a>
+                </div>
+
+                <div class="mt-5 event-content d-flex flex-column flex-lg-row align-items-center justify-content-between px-5 py-4 bg-white">
+                    <img src="assets/images/sue-04.webp" alt="image">
+                    <div class="date">
+                        <p class="text-center mt-3 mt-lg-0">26 Mar <br> 2021 <br> 09:10pm</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column flex-lg-row gap-0 gap-lg-4 mt-3 mt-lg-0">
+                        <i class="fa-solid fa-globe fs-1"></i>
+                        <p class="info-text mt-3 mt-lg-0">Update Design & Ux <br class="d-none d-lg-block"> Support</p>
+                    </div>
+                    <p class="fs-6 mt-3 mt-lg-0">Banue: Hall No 2</p>
+                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black">BUY A TICKETS</a>
+                </div>
+                
+
+            </div>
+        </section>
+
+        <!--============ GET UPDATE ============-->
+        <section class="update py-5" id="update">
+            <div class="container py-5">
+
+                
+
+                <div class="row border border-start-3">
+                    <div class="col-lg-4">
+                        <div>
+                            <div class="pt-5 px-5">
+                                <img src="assets/images/mobile.webp" alt="image">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-8">
+                        <div 
+                        class="ms-5 local-bg-primary d-flex flex-column flex-grow-1 align-items-center justify-content-center">
+                            <div class="text-content d-flex flex-column align-items-start justify-content-center py-5 px-2">
+                                <h2 class="fs-1 text-start text-black-50">Get All Update by Apps</h2>
+                                <p class="fs-6 text-black-50">
+                                    It is a long established fact that a reader will be distracted by theIpsum is that it has using It is a long established fact that a reader will be distracted.
+                                </p>
+                            </div>
+                            <div>
+                                <img src="./assets/images/google-play.webp" alt="">
+                                <img src="./assets/images/apple-store.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+    </main>
+    
+    <!--============ FOOTER ============-->
+    <footer>
+
+    </footer>
+    
+    <!--============ Font Awesome Library ============-->
+    <script src="assets/js/all.min.js"></script>
+    <!--============ BootStrap ============-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--============ MAIN JS ============-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
