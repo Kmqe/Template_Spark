@@ -37,40 +37,37 @@
         </div>
     </div>
 
-    <header class="d-flex align-items-center">
+    <header class="d-flex align-items-center w-100 ">
         <div class="container px-lg-5 "> <!-- mt-m-3 -->
             <nav class="navbar navbar-expand-md">
                 <div class="container-fluid">
                     <a class="navbar-brand d-none d-md-block" href="#"><img class="logo-lg" src="assets/images/logo.webp" alt="Logo"></a>
                     <a class="navbar-brand d-md-none" href="#"><img src="assets/images/logo-02.webp" alt="Logo"></a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa-solid fa-bars fs-2" id="toggle_on"></i>
-                        <i class="fa-solid fa-xmark fs-2" id="toggle_off"></i>
+                    <button class="navbar-toggler shadow-none border-0" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars fs-2 text-white" id="toggle_on"></i>
+                        <i class="fa-solid fa-xmark fs-2 text-white" id="toggle_off"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-md-3 ">
                             <li class="nav-item border-bottom py-2">
-                                <a class="nav-link ps-4 active" href="#">Home</a>
+                                <a class="nav-link ps-4 active" href="#home">Home</a>
                             </li>
                             <li class="nav-item border-bottom py-2">
-                                <a class="nav-link ps-4" href="#">About</a>
+                                <a class="nav-link ps-4" href="#about">About</a>
                             </li>
                             <li class="nav-item border-bottom py-2">
-                                <a class="nav-link ps-4" href="#">Happen</a>
+                                <a class="nav-link ps-4" href="#speaker">Speakers</a>
                             </li>
                             <li class="nav-item border-bottom py-2">
-                                <a class="nav-link ps-4" href="#">Speakers</a>
-                            </li>
-                            <li class="nav-item border-bottom py-2">
-                                <a class="nav-link ps-4" href="#">News</a>
-                            </li>
-                            <li class="nav-item border-bottom py-2">
-                                <a class="nav-link ps-4" href="#">Schedule</a>
-                            </li>
-                            <li class="nav-item border-bottom py-2">
-                                <a class="nav-link ps-4" href="#">Contact</a>
+                                <a class="nav-link ps-4" href="#news">News</a>
                             </li>
                         </ul>
                     </div>
@@ -80,7 +77,7 @@
     </header>
 
     <!--============ MAIN ============-->
-    <main class="main ">
+    <main class="main">
 
         <!--============ HOME ============-->
         <section class="home vh-100 d-flex align-items-center" id="home">
@@ -97,7 +94,7 @@
                         <span>1080 Layman Court, New York</span>
                     </div>
                 </div>
-                <a href="#" class="btn mt-4 py-3 px-4 text-light text-uppercase border border-1" >Buy Tickets</a>
+                <a href="#" class="btn mt-4 py-3 px-4 text-light text-uppercase border border-1 button_primary" >Buy Tickets</a>
             </div>
         </section>
         
@@ -105,25 +102,25 @@
         <section class="about py-5" id="about">
             <div class="container px-lg-5 py-5">
                 <div class="row g-2">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 left">
                         <div>
-                            <h1 class="text-uppercase fw-normal fs-2">About Event</h1>
+                            <h1 class="text-uppercase fw-normal fs-2 color-paragraph">About Event</h1>
                             <p class="px-3 px-md-5 border-start border-secondary border-2 mt-4 mb-5">
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a morless normal distribution of letters, as opposed
                             </p>
                         </div>
                         <div>
-                            <h1 class="text-uppercase fw-normal fs-2">Detail Event</h1>
+                            <h1 class="text-uppercase fw-normal fs-2 color-paragraph">Detail Event</h1>
                             <div class="px-3 px-md-5 mt-4 border-start border-secondary border-2">
-                                <h2 class="fs-5 fw-normal">1st Stape to gather</h2>
+                                <h2 class="fs-5 fw-normal color-paragraph">1st Stape to gather</h2>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
             
-                                <h2 class="fs-5 fw-normal mt-4">2nd Stape to Create won way</h2>
+                                <h2 class="fs-5 fw-normal mt-4 color-paragraph">2nd Stape to Create won way</h2>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 mt-5 mt-md-0">
+                    <div class="col-lg-6 col-md-6 mt-5 mt-md-0 right">
                         <div class="event-info py-3 py-md-5">
                             <ul class="d-flex flex-column gap-3 ps-3 ps-md-5">
                                 <li class="d-flex align-items-center gap-3 fs-5 color-paragraph ">
@@ -151,7 +148,7 @@
                                     <p class="fw-normal">80+ Speaker</p>
                                 </li>
                             </ul>
-                            <a href="#" class="btn ms-5 my-3 text-black text-uppercase border border-1 border-black">Register</a>
+                            <a href="#" class="btn ms-5 my-3 text-black text-uppercase border border-1 border-black button_primary">Register</a>
                         </div>
                     </div>
                 </div>
@@ -164,7 +161,7 @@
                 <h2 class="text-uppercase text-black-50">honorable speaker</h2>
                 <div class="row row-gap-5 mt-4">
 
-                    <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 card-person">
                         <div class="card border-0 px-1">
                             <div class="card-body d-flex flex-column align-items-center py-4 local-bg-primary ">
                                 <img class="rounded-circle" src="assets/images/speaker.webp" alt="image">
@@ -189,7 +186,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 card-person">
                         <div class="card border-0 px-1">
                             <div class="card-body d-flex flex-column align-items-center py-4 local-bg-primary ">
                                 <img class="rounded-circle" src="assets/images/speaker-2.webp" alt="image">
@@ -214,7 +211,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 card-person">
                         <div class="card border-0 px-1">
                             <div class="card-body d-flex flex-column align-items-center py-4 local-bg-primary ">
                                 <img class="rounded-circle" src="assets/images/speaker-3.webp" alt="image">
@@ -239,7 +236,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 card-person">
                         <div class="card border-0 px-1">
                             <div class="card-body d-flex flex-column align-items-center py-4 local-bg-primary ">
                                 <img class="rounded-circle" src="assets/images/speaker.webp" alt="image">
@@ -283,7 +280,7 @@
                         <p class="info-text mt-3 mt-lg-0">Update Design & Ux <br class="d-none d-lg-block"> Support</p>
                     </div>
                     <p class="fs-6 mt-3 mt-lg-0">Banue: Hall No 2</p>
-                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black">BUY A TICKETS</a>
+                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black button_primary">BUY A TICKETS</a>
                 </div>
 
                 <div class="mt-5 event-content d-flex flex-column flex-lg-row align-items-center justify-content-between px-5 py-4 bg-white">
@@ -296,7 +293,7 @@
                         <p class="info-text mt-3 mt-lg-0">Update Design & Ux <br class="d-none d-lg-block"> Support</p>
                     </div>
                     <p class="fs-6 mt-3 mt-lg-0">Banue: Hall No 2</p>
-                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black">BUY A TICKETS</a>
+                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black button_primary">BUY A TICKETS</a>
                 </div>
 
                 <div class="mt-5 event-content d-flex flex-column flex-lg-row align-items-center justify-content-between px-5 py-4 bg-white">
@@ -309,7 +306,7 @@
                         <p class="info-text mt-3 mt-lg-0">Update Design & Ux <br class="d-none d-lg-block"> Support</p>
                     </div>
                     <p class="fs-6 mt-3 mt-lg-0">Banue: Hall No 2</p>
-                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black">BUY A TICKETS</a>
+                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black button_primary">BUY A TICKETS</a>
                 </div>
 
                 <div class="mt-5 event-content d-flex flex-column flex-lg-row align-items-center justify-content-between px-5 py-4 bg-white">
@@ -322,7 +319,7 @@
                         <p class="info-text mt-3 mt-lg-0">Update Design & Ux <br class="d-none d-lg-block"> Support</p>
                     </div>
                     <p class="fs-6 mt-3 mt-lg-0">Banue: Hall No 2</p>
-                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black">BUY A TICKETS</a>
+                    <a href="#" class="btn py-3 px-4 mt-4 text-black text-uppercase border border-1 border-black button_primary">BUY A TICKETS</a>
                 </div>
                 
 
@@ -332,46 +329,179 @@
         <!--============ GET UPDATE ============-->
         <section class="update py-5" id="update">
             <div class="container py-5">
-
-                
-
-                <div class="row border border-start-3">
-                    <div class="col-lg-4">
+                <div class="d-flex flex-column flex-lg-row border border-start-3">
+                    <div>
                         <div>
-                            <div class="pt-5 px-5">
+                            <div class="pt-5 px-5 d-lg-block d-flex justify-content-center">
                                 <img src="assets/images/mobile.webp" alt="image">
                             </div>
                         </div>
                     </div>
-    
-                    <div class="col-lg-8">
-                        <div 
-                        class="ms-5 local-bg-primary d-flex flex-column flex-grow-1 align-items-center justify-content-center">
+                    <div class="w-100 border-start get-apps">
+                        <div class="h-100 local-bg-primary d-flex flex-column align-items-center justify-content-center">
                             <div class="text-content d-flex flex-column align-items-start justify-content-center py-5 px-2">
                                 <h2 class="fs-1 text-start text-black-50">Get All Update by Apps</h2>
                                 <p class="fs-6 text-black-50">
                                     It is a long established fact that a reader will be distracted by theIpsum is that it has using It is a long established fact that a reader will be distracted.
                                 </p>
                             </div>
-                            <div>
-                                <img src="./assets/images/google-play.webp" alt="">
-                                <img src="./assets/images/apple-store.webp" alt="">
+                            <div class="d-flex column-gap-2 p-4 p-lg-0 stores">
+                                <img src="./assets/images/google-play.webp" alt="Google Play Image">
+                                <img src="./assets/images/apple-store.webp" alt="Apple Store Image">
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <!--============ ONGOING EVENTS ============-->
+        <section class="ongoing-events py-5 overflow-hidden" id="ongoing_events" >
+            <div class="container text-white text-center py-3 position-relative z-3">
+                <h5 class="text-uppercase">Ongoing events</h5>
+                <h2 class="text-uppercase my-4 d-none d-sm-block">Play online, all events</h2>
+                <div class="border border-5 rounded-circle p-4 fs-4 mx-auto my-sm-4 my-3 cursor-pointer"
+                style="width: fit-content;"
+                id="togglePlayback">
+                    <i class="fa-solid ps-1 fa-play position-absolute translate-middle start" id="start"></i>
+                    <i class="fa-solid fa-pause position-absolute translate-middle stop" id="stop"></i>
+                </div>
+                <p class="mw-100 d-none d-sm-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <video src="./video.mp4" loop id="ongoing_video" ></video>
+        </section>
 
+        <!--============ PRICING ============-->
+        <section class="pricing py-5" id="pricing">
+            <div class="container py-5">
+                <div class="row gx-4">
+                    <div class="col-sm-6 col-lg-4 d-flex align-items-center justify-content-center position-relative price_card">
+                        <div class="price position-absolute d-flex align-items-center justify-content-center z-3">$29.00/day</div>
+                        <div class="px-xl-4 py-5 local-bg-primary w-100  mt-5 position-relative">
+                                <div class="d-flex flex-column align-items-center px-4">
+                                    <div class="border border-5 d-inline-block p-4 rounded-circle mt-5">
+                                        <img src="./assets/images/silver.webp" alt="a">
+                                    </div>
+                                    <p class="fs-5 mt-2 mb-4 text-center color-paragraph">SILVER BOKKING</p>
+                                    <a href="#" class="btn text-black text-uppercase border border-1 border-black w-100 mt-5 button_primary">BUY NOW</a>
+                                </div>
+                        </div>
+                    </div>
 
+                    <div class="col-sm-6 col-lg-4 d-flex align-items-center justify-content-center position-relative price_card">
+                        <div class="price position-absolute d-flex align-items-center justify-content-center z-3">$39.00/day</div>
+                        <div class="px-xl-4 py-5 local-bg-primary w-100  mt-5 position-relative">
+                                <div class="d-flex flex-column align-items-center px-4">
+                                    <div class="border border-5 d-inline-block p-4 rounded-circle mt-5">
+                                        <img src="./assets/images/gold.webp" alt="a">
+                                    </div>
+                                    <p class="fs-5 mt-2 mb-4 text-center color-paragraph">GOLD BOKKING</p>
+                                    <a href="#" class="btn  text-black text-uppercase border border-1 border-black w-100 mt-5 button_primary">BUY NOW</a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 d-flex align-items-center justify-content-center position-relative price_card">
+                        <div class="price mx-auto position-absolute d-flex align-items-center justify-content-center z-3">$49.00/day</div>
+                        <div class="px-xl-4 py-5 local-bg-primary w-100  mt-5 position-relative">
+                                <div class="d-flex flex-column align-items-center px-4">
+                                    <div class="border border-5 d-inline-block p-4 rounded-circle mt-5">
+                                        <img src="./assets/images/platinum.webp" alt="a">
+                                    </div>
+                                    <p class="fs-5 mt-2 mb-4 text-center color-paragraph">PLATINUM BOKKING</p>
+                                    <a href="#" class="btn  text-black text-uppercase border border-1 border-black w-100 mt-5 button_primary">BUY NOW</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--============ NEWS ============-->
+        <section class="news py-5 position-relative" id="news">
+            <div class="container py-5 text-center">
+                <h1 class="text-uppercase fs-2 lh-base fw-normal color-paragraph">Enter Your Email Address For Events & <br> News</h1>
+
+                <div class="d-flex justify-content-center column-gap-3 mt-5">
+                    <input type="text" placeholder="Enter your E-mail Address" class="p-2 rounded">
+                    <button class="border-1 px-4 py-3 rounded">
+                        <i class="fa-solid fa-paper-plane color-primary"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--============ MAP ============-->
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64626.306372727515!2d-73.98719469282524!3d40.705384997725204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z2YbZitmI2YrZiNix2YPYjCDYp9mE2YjZhNin2YrYp9iqINin2YTZhdiq2K3Yr9ip!5e0!3m2!1sar!2ssa!4v1736591039301!5m2!1sar!2ssa" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!--============ INFORMATION ============-->
+        <section class="information p-5 local-bg-primary">
+            <div class="container py-5" >
+                <div class="row gy-4 gy-md-0">
+                    <div class="col-md-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-phone color-paragraph fa-2x"></i>
+                            <p class="fs-4 color-paragraph my-2">Phone</p>
+                            <p>+ (0192) 5184203</p>
+                            <p>+ (0185) 0950555</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-envelope-open color-paragraph fa-2x"></i>
+                            <p class="fs-4 color-paragraph my-2">E-Mail</p>
+                            <p>company@email.com</p>
+                            <p>we@company.info</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-hotel color-paragraph fa-2x"></i>
+                            <p class="fs-4 color-paragraph my-2">1st Venue</p>
+                            <p>555 / 2A Sevent Streth</p>
+                            <p>Rampura, Bansree</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <i class="fa-solid fa-city color-paragraph fa-2x"></i>
+                            <p class="fs-4 color-paragraph my-2">1st Venue</p>
+                            <p>689 / 2B Sevent Streth</p>
+                            <p>Rampura, Bansree.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     
     <!--============ FOOTER ============-->
-    <footer>
-
+    <footer class="py-5 text-white">
+        <div class="container d-flex align-items-center justify-content-md-between flex-column flex-md-row row-gap-4">
+            <div class="social d-flex column-gap-4">
+                <i class="fa-brands fa-facebook-f fs-5"></i>
+                <i class="fa-brands fa-google fs-5"></i>
+                <i class="fa-brands fa-x-twitter fs-5"></i>
+                <i class="fa-brands fa-vimeo-v fs-5"></i>
+                <i class="fa-brands fa-pinterest-p fs-5"></i>
+            </div>
+            <div>
+                <img class="mx-2" src="./assets/images/pay-01.webp" alt="">
+                <img class="mx-2" src="./assets/images/pay-02.webp" alt="">
+                <img class="mx-2" src="./assets/images/pay-03.webp" alt="">
+                <img class="mx-2" src="./assets/images/pay-04.webp" alt="">
+            </div>
+        </div>
     </footer>
     
+    
+    <!--============ Scroll Reveal ============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!--============ Font Awesome Library ============-->
     <script src="assets/js/all.min.js"></script>
     <!--============ BootStrap ============-->
